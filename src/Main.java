@@ -14,7 +14,7 @@ public class Main {
             m = Util.mScanerInt();
             switch (m) {
                 case 1:
-                    /*System.out.println("Ввдите название папки, которую хотите создать для сохранения контакта");
+                    /*System.out.println("Ввдите название папки, которую хотите создать для сохранения контакта телефонной книги ДА");
                     String newFolderName = scanner.nextLine();
                     String newFileName = scanner.nextLine();*/
                     PhoneBook.newDataFile (/*newFolderName,newFileName*/);
